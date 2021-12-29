@@ -1,5 +1,7 @@
 # Roman Kavalenka
 
+<img src="https://avatars.githubusercontent.com/u/36262773?s…00&u=57a758424697edbbc3104f9ee42b15f31ec5547e&v=4" alt="photo" width="200" />
+
 ***
 
 #### Contacts
