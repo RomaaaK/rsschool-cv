@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Document</title>
+    <title>CV</title>
 </head>
+
 <body>
     <header class="header">
         <nav>
@@ -23,24 +25,26 @@
         </nav>
     </header>
     <main class="container">
-        <section class="column center">
+        <div class="column center">
             <h1>Raman Kavalenka</h1>
-            <img class="photo" src="https://avatars.githubusercontent.com/u/36262773?s…00&u=57a758424697edbbc3104f9ee42b15f31ec5547e&v=4" alt="my photo">
-        </section>
-        <section class="column">
-            <aside id="contact">
+            <img class="photo"
+                src="https://avatars.githubusercontent.com/u/36262773?s…00&u=57a758424697edbbc3104f9ee42b15f31ec5547e&v=4"
+                alt="my photo">
+        </div>
+        <div class="column">
+            <section id="contact">
                 <h2>Contacts</h2>
                 <ul class="list">
                     <li class="list__item"><a href="mailto:romaaak0748@gmail.com" target="_blank">Email</a></li>
                     <li class="list__item">Adress: Republic of Belarus, Gomel</li>
                     <li class="list__item"><a href="https://github.com/RomaaaK" target="_blank">GitHub</a></li>
                 </ul>
-            </aside>
-            <aside id="about_me">
+            </section>
+            <section id="about_me">
                 <h2>About Me</h2>
                 <p>Programming is my hobby. I enjoy solving problems and dealing with difficulties.</p>
-            </aside>
-            <aside id="skils">
+            </section>
+            <section id="skils">
                 <h2>Skils</h2>
                 <ul class="list">
                     <li class="list__item">HTML</li>
@@ -49,49 +53,52 @@
                     <li class="list__item">React, Vue</li>
                     <li class="list__item">Git</li>
                 </ul>
-            </aside>
-            <aside id="languages">
+            </section>
+            <section id="languages">
                 <h2>Languages</h2>
                 <ul class="list">
                     <li class="list__item">Russian - Native</li>
                     <li class="list__item">English - Basic</li>
                 </ul>
-            </aside>
-            <aside id="projects">
+            </section>
+            <section id="projects">
                 <h2>Projects</h2>
                 <ul class="list">
-                    <li class="list__item"><a href="https://github.com/RomaaaK/rsschool-cv" target="_blank">CV project</a></li>
+                    <li class="list__item"><a href="https://github.com/RomaaaK/rsschool-cv" target="_blank">CV
+                            project</a></li>
                     <li class="list__item">to be continued</li>
                 </ul>
-            </aside>
-            <aside id="code">
+            </section>
+            <section id="code">
                 <h2>Code example</h2>
-                <code>
-                    <pre>
+                <pre>
+                    <code>
 
-        function humanReadable(seconds) {
-            let hh = String('0' + Math.trunc(seconds / 60 / 60)).slice(-2);
-            let mm = String('0' + Math.trunc(seconds / 60 % 60)).slice(-2);
-            let ss = String('0' + Math.trunc(seconds % 60 % 60)).slice(-2);
-            return `${hh}:${mm}:${ss}`;
-            }
-                    </pre>
-                </code>
-            </aside>
-            <aside id="courses">
+            function humanReadable(seconds) {
+                let hh = String('0' + Math.trunc(seconds / 60 / 60)).slice(-2);
+                let mm = String('0' + Math.trunc(seconds / 60 % 60)).slice(-2);
+                let ss = String('0' + Math.trunc(seconds % 60 % 60)).slice(-2);
+                return `${hh}:${mm}:${ss}`;
+                }
+                    </code>
+                </pre>
+            </section>
+            <section id="courses">
                 <h2>Courses and book</h2>
                 <ul class="list">
                     <li class="list__item">RS Schools Course «JavaScript/Front-end. Stage 0»</li>
                     <li class="list__item">learnjavascript.ru</li>
                     <li class="list__item">HTML, CSS for practice</li>
                 </ul>
-            </aside>
-        </section>
+            </section>
+        </div>
     </main>
     <footer class="footer">
         <p>© 2022</p>
-        <a href="https://rs.school/"><img class="footer__img" src="https://rs.school/images/rs_school_js.svg" alt="img rsschool"></a>
+        <a href="https://rs.school/"><img class="footer__img" src="https://rs.school/images/rs_school_js.svg"
+                alt="img rsschool"></a>
         <a href="https://github.com/RomaaaK">my github</a>
     </footer>
 </body>
+
 </html>
