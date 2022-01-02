@@ -24,13 +24,13 @@ a:hover {
     color: #5e5e5e;
 }
 
-aside {
+section {
     margin-bottom: 25px;
     border-bottom: 1px solid black;
     padding: 5px;
 }
 
-aside:last-child {
+section:last-child {
     border-bottom: none;
 }
 
@@ -60,6 +60,10 @@ pre {
 
 .center {
     text-align: center;
+}
+
+.left {
+    text-align: left;
 }
 
 .photo {
