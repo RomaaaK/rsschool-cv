@@ -58,6 +58,10 @@ pre {
     display: flex;
 }
 
+main {
+    min-height: calc(100vh - 37px - 50px);
+}
+
 .center {
     text-align: center;
 }
